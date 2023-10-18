@@ -7,7 +7,6 @@ Feature: Parameter Examples
   Scenario: Path parameter with kraft -1
       #request
     Given url kraftBaseURL+"/allusers/getbyid"
-    And path "allusers/getbyid"
     And path "5"
     When method GET
       #response
